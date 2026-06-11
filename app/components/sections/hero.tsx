@@ -123,7 +123,7 @@ export default function Hero() {
     };
   }, []);
 
-  const scrambledName = useScramble("manjit", mounted);
+  const scrambledName = useScramble("Manjit", mounted);
   const role = useTypewriter(ROLES);
 
   return (
@@ -228,7 +228,7 @@ export default function Hero() {
             <span style={{ color: "var(--accent)" }}>{scrambledName}</span>
             <br />
             <span style={{ color: "#2a2a2a", WebkitTextStroke: "1px #333" }}>
-              Garg.
+              Gupta
             </span>
           </h1>
 
@@ -396,7 +396,7 @@ export default function Hero() {
             <span
               style={{ marginLeft: "8px", fontSize: "11px", color: "#444" }}
             >
-            manjit.ts
+            Manjit.ts
             </span>
           </div>
 
@@ -413,13 +413,13 @@ export default function Hero() {
               <p style={{ paddingLeft: "20px" }}>
                 <span style={{ color: "#f07178" }}>name</span>
                 <span style={{ color: "#89ddff" }}>: </span>
-                <span style={{ color: "#c3e88d" }}>"manjit kumar"</span>
+                <span style={{ color: "#c3e88d" }}>"Manjit kumar"</span>
                 <span style={{ color: "#89ddff" }}>,</span>
               </p>
               <p style={{ paddingLeft: "20px" }}>
                 <span style={{ color: "#f07178" }}>role</span>
                 <span style={{ color: "#89ddff" }}>: </span>
-                <span style={{ color: "#c3e88d" }}>"JAVA Full Stack Developer"</span>
+                <span style={{ color: "#c3e88d" }}>Full Stack Developer"</span>
                 <span style={{ color: "#89ddff" }}>,</span>
               </p>
               <p style={{ paddingLeft: "20px" }}>
