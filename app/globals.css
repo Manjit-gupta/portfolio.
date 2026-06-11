@@ -1,0 +1,49 @@
+@import "tailwindcss";
+::selection {
+  background: rgba(163, 230, 53, 0.25);
+  color: #f0f0f0;
+}
+
+::-moz-selection {
+  background: rgba(163, 230, 53, 0.25);
+  color: #f0f0f0;
+}
+:root {
+  /* Background */
+  --bg-primary:   #0a0a0a;
+  --bg-surface:   #111111;
+  --bg-elevated:  #1a1a1a;
+
+  /* Accent */
+  --accent:         #a3e635;
+  --accent-dim:     rgba(163, 230, 53, 0.10);
+  --accent-border:  rgba(163, 230, 53, 0.30);
+
+  /* Text */
+  --text-primary:   #f0f0f0;
+  --text-secondary: #888888;
+  --text-muted:     #555555;
+  --border:         #1e1e1e;
+
+  /* Typography */
+  --font-heading: 'Syne', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+  --font-mono:    'Space Mono', monospace;
+
+  /* Layout */
+  --container-max: 1100px;
+  --container-pad: 48px;
+  --section-py:    100px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+  }
+}
